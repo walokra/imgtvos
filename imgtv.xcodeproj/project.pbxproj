@@ -11,15 +11,17 @@
 		363B8B771BEE8065001DF144 /* presenter.js in Resources */ = {isa = PBXBuildFile; fileRef = 363B8B761BEE8065001DF144 /* presenter.js */; };
 		363B8B791BEE8233001DF144 /* resourceloader.js in Resources */ = {isa = PBXBuildFile; fileRef = 363B8B781BEE8233001DF144 /* resourceloader.js */; };
 		363B8B7B1BEE83A5001DF144 /* main.xml.js in Resources */ = {isa = PBXBuildFile; fileRef = 363B8B7A1BEE83A5001DF144 /* main.xml.js */; };
+		366151CA1BF74D4200CC929E /* imgur.js in Resources */ = {isa = PBXBuildFile; fileRef = 366151C91BF74D4200CC929E /* imgur.js */; };
 		36B6D6551BEE75F00002181A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6D6541BEE75F00002181A /* AppDelegate.swift */; };
 		36B6D65C1BEE75F00002181A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B6D65B1BEE75F00002181A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		363B8B6D1BEE79B5001DF144 /* application.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = application.js; path = js/application.js; sourceTree = "<group>"; };
+		363B8B6D1BEE79B5001DF144 /* application.js */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.javascript; name = application.js; path = js/application.js; sourceTree = "<group>"; };
 		363B8B761BEE8065001DF144 /* presenter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = presenter.js; path = js/presenter.js; sourceTree = "<group>"; };
 		363B8B781BEE8233001DF144 /* resourceloader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = resourceloader.js; path = js/resourceloader.js; sourceTree = "<group>"; };
 		363B8B7A1BEE83A5001DF144 /* main.xml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = main.xml.js; path = templates/main.xml.js; sourceTree = "<group>"; };
+		366151C91BF74D4200CC929E /* imgur.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = imgur.js; path = js/imgur.js; sourceTree = "<group>"; };
 		36B6D6511BEE75F00002181A /* imgtv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imgtv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B6D6541BEE75F00002181A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36B6D65B1BEE75F00002181A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 				363B8B6D1BEE79B5001DF144 /* application.js */,
 				363B8B761BEE8065001DF144 /* presenter.js */,
 				363B8B781BEE8233001DF144 /* resourceloader.js */,
+				366151C91BF74D4200CC929E /* imgur.js */,
 			);
 			name = js;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				363B8B791BEE8233001DF144 /* resourceloader.js in Resources */,
 				36B6D65C1BEE75F00002181A /* Assets.xcassets in Resources */,
 				363B8B6E1BEE79B5001DF144 /* application.js in Resources */,
+				366151CA1BF74D4200CC929E /* imgur.js in Resources */,
 				363B8B771BEE8065001DF144 /* presenter.js in Resources */,
 				363B8B7B1BEE83A5001DF144 /* main.xml.js in Resources */,
 			);
