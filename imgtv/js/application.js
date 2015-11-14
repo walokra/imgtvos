@@ -35,8 +35,8 @@ App.onLaunch = function(opt) {
 			getGallery(mainGalleryItems, 0, settings, function(status) {
 				var content = "";
 				 mainGalleryItems.forEach(function(element, index, array) {
-					// console.log(index, element);
-					content += `<lockup><img src="${element.link}" width="320" height="320" /></lockup>`;
+					// console.log(index, element);					
+					content += `<lockup imgurId="${element.id}" album="${element.is_album}"><img src="${element.link}" width="320" height="320" /></lockup>`;
 				});
 					   
 				createMainGallery(content);
@@ -48,7 +48,7 @@ App.onLaunch = function(opt) {
 		}
 	});
 }
-					
+
 function createMainGallery(content) {
 	evaluateScripts(javascriptFiles, function(success) {
 		console.log("evaluateScripts, " + javascriptFiles);
@@ -56,7 +56,7 @@ function createMainGallery(content) {
 			resourceLoader = new ResourceLoader(options.BASEURL);
 			resourceLoader.loadResource(`${options.BASEURL}templates/main.xml.js`, function(resource) {
 					var doc = Presenter.makeDocument(resource);
-					//doc.addEventListener("select", Presenter.load.bind(Presenter));
+					doc.addEventListener("select", Presenter.load.bind(Presenter));
 					Presenter.pushDocument(doc);
 			}, content);
 		} else {
